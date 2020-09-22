@@ -1,0 +1,66 @@
+
+.topul{
+    list-style-type: none; margin: 0;
+    padding: 10px; padding-right: 4%; padding-left: 2%;
+    overflow: hidden; background-color: #114111;
+    color: white; width: 100%;
+} 
+.fed{
+    float: left; text-align: left; padding: 14px 16px; 
+    padding-top: 23px; font-size: 16px; 
+} 
+
+.topli a {
+    float: right; display: inline-block; color: white;
+    text-align: center; padding: 14px 16px; text-decoration: none;
+    padding-top: 25px; font-size: 16px; margin-right: 1%;
+}
+.topli a:hover{
+    color: #fdf34a; 
+    text-decoration: none;
+}
+nav{
+    background-color: #114111; width: 100%;
+     padding-bottom: 2%;
+}
+.contain{
+    position: relative;
+    width: 150px; margin-left: 46%;
+}
+
+.top-right{
+    position: absolute; top: 35%;
+    right: 7%; font-size: 18px;
+    color: white;
+}
+.image{
+    width: 30%; height: 200px;
+    opacity: 0.1; text-align: center;
+}
+
+p{
+    position: relative; font-size: 18px;
+}
+footer{
+    border: 1px solid #114111;
+    padding-top: 30px; padding-bottom: 16px;
+      background-color: #114111;
+      color: white; justify-content: center;
+      
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.glyphicon-hand-right{
+    margin-left: 5%; font-size: 17px;
+     background-color: #1dc81d;
+     border-radius: 50%; padding: 3px;
+}
+.glyphicon-hand-left{
+    margin-left: 1.5%; font-size: 17px;
+     background-color: #1dc81d;
+     border-radius: 50%; padding: 3px;
+}

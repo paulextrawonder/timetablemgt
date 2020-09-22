@@ -1,0 +1,251 @@
+.inputWithIcon{
+    position: relative; margin-left: 7%; margin-right: 7%;
+    background-color: #114111;
+    display: none;
+}
+.inputWithIcon i{
+    position: absolute; left: 0px; top: 23px;
+    padding: 9px 4px; color: white;
+    transition: .3s; background-color: #114111;
+    border-left: 1px solid white; border-radius: 50%;
+    margin-bottom: 5%; font-size: 20px; padding-left: 10px;
+}
+input[type=text]{
+    width: 100%; border: 1px solid white;
+    margin: 8px 0; outline: none; padding: 8px; 
+    box-sizing: border-box; transition: .3s;
+    background-color: #114111; color: white;
+    padding: 12px 12px; border-radius: 30px; padding-bottom: 12px;
+    padding-top: 12px;
+}
+.inputWithIcon input[type=text]{
+    padding-left: 20px;
+}
+.for_mobile{
+    display: none;
+}
+.topul{
+    list-style-type: none; margin: 0;
+    padding: 10px; padding-right: 8%; padding-left: 6%;
+    overflow: hidden; background-color: #114111;
+    color: white; width: 100%;
+} 
+.fed{
+    float: left; text-align: left; font-size: 16px; 
+    padding-top: 23px;
+} 
+
+.futo-logo{
+    float: left; padding-top: 14px;
+     padding-bottom: 18px; margin-right: 1%;
+}
+
+.futo-logo img{
+    border-radius: 50%;
+}
+
+.topli a {
+    float: right; display: inline-block; color: white;
+    text-align: center; text-decoration: none; margin-left: 2%;
+    padding-top: 25px; font-size: 16px; margin-right: 1%; 
+}
+.topli a:hover{
+    color: #fdf34a; text-decoration: none;
+}
+nav{
+    background-color: #114111; width: 100%;
+     padding-bottom: 2%;
+}
+.contain{
+    position: relative; 
+    width: 170px; margin-left: 43.3%; margin-top: -3%;
+}
+
+.top-right{
+    position: absolute; top: 36%;
+    right: 18%; font-size: 22px;
+    color: white;
+}
+.image{
+    width: 35%; height: 250px; border-top-left-radius: 50%; border-top-right-radius: 50%;
+    opacity: 0.1; text-align: center; border-bottom-left-radius: 20%; border-bottom-right-radius: 20%;
+}
+
+p{
+    position: relative; font-size: 18px;
+}
+
+.card-title, .card-text{
+    color: #114111;
+}
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    width: 100%; height: 200px;
+}
+section{
+    background-color: white; 
+}
+footer{
+    border: 1px solid #114111;
+    padding-top: 30px; padding-bottom: 16px;
+      background-color: #114111;
+      color: white; justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+}
+.glyphicon-hand-right{
+    margin-left: 5%; font-size: 17px;
+     background-color: #1dc81d;
+     border-radius: 50%; padding: 3px;
+}
+.glyphicon-hand-left{
+    margin-left: 1.5%; font-size: 17px;
+     background-color: #1dc81d;
+     border-radius: 50%; padding: 3px;
+}
+
+.next a, .previous a{
+    width: 13%; border: 2px solid #114111;
+    color: #114111;
+}
+.paginatn a {
+    border: 2px solid #114111;
+     color: #114111;
+}
+.paginatn a:active{
+    background-color: #114111;
+     color: white;
+}
+.next a:hover{
+    background-color: #1dc81d;
+}
+
+.pager{
+    margin-bottom: 7%;
+}
+.next a, .previous a { color: #114111;
+     border: 1px solid #114111;
+    }
+    .modal_icon, .futo-logo-mobile{
+        display: none;
+    }
+
+@media screen and (max-width: 1024px){
+    .contain, .topli, .pager, footer, .futo-logo{
+        display: none;}   
+
+    .fed{
+        float: left; text-align: left;
+        padding: 14px 16px; font-size: 35px; 
+        padding-top: 23px;
+        font-weight: lighter;
+    }
+    
+    .for_mobile{
+        color: white; display: inline;
+        margin-left: 4%; background-color: #114111;
+    }
+
+    .text{
+        font-size: 45px; font-weight: bold;
+        float: left; margin-left: 38%;
+    }
+
+    .glyphicon-menu-hamburger{
+         margin-right: 4%;
+        font-size: 35px; 
+    }  
+    #searchIcon{
+     float: right; margin-right: 4%;
+        font-size: 35px;    
+    }
+    .inputWithIcon{
+        position: relative; margin-left: 3%; margin-right: 3%;
+        background-color: #114111; display: inline; 
+    }
+    .inputWithIcon i{
+        position: absolute; left: 0px; top: -10px;
+        padding: 9px 4px; color: white;
+        transition: .3s; background-color: #114111;
+        border-left: 0px; border-radius: 50%;
+        margin-bottom: 5%; font-size: 20px; padding-left: 10px;
+    }
+    input[type=text]{
+        width: 94%; border: 0px;
+        outline: none; padding: 8px; 
+        box-sizing: border-box; transition: .3s;
+        background-color: #114111; color: white;
+        padding: 12px 12px; border-radius: 30px; padding-bottom: 12px;
+        padding-top: 12px; margin-bottom: 3%;
+    }
+    
+    .inputWithIcon input[type=text]{
+        padding-left: 20px;
+    }
+
+    input[type=text]:focus{
+        border:1px solid white;
+    }
+    .inputWithIcon i{
+        border-left: 1px solid white;
+    }
+    .ourtext{
+        display: inline;
+    }
+    .btn-lg{
+        background-color: #114111;
+        border: 1px solid white;
+        width: 95%; border-radius: 30px;
+        font-size: 20px; font-weight: bold;
+        margin-top: 10%; margin-bottom: 7%;
+        color: white; margin-left: 2.5%;
+    }
+
+    .btn-lg:hover, .btn-lg:focus{
+        color: white; border: 1px solid white;
+         border-radius: 30px;
+    }
+    p a{
+        color: white; margin-left: 2%;
+        text-decoration: none;
+    }
+    p a:hover{
+        color: white; text-decoration: none;
+    }
+    p a:focus{
+        color: white; text-decoration: none;
+    }
+    nav{
+        padding-bottom: 15%; padding-top: 5%;
+    }
+    section{
+         border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+         margin-top: -10%; padding-top: 2%;
+    }
+    .modal_icon{
+        float: right; display: inline;
+       margin-top: 4.5%;
+    }
+    .topul{
+        margin-bottom: 4%;
+    }
+    .next a, .previous a{
+        font-size: 25px;
+    }
+    .futo-logo-mobile{
+        float: left; padding-top: 13px; display: block;
+    }
+    
+    .futo-logo-mobile img{
+        border-radius: 50%;
+    }
+    .modal-header .close:focus, .modal-header .close:active{
+        outline: none;
+        }
+}   

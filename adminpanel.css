@@ -1,0 +1,717 @@
+
+body{
+    margin: 0;
+}
+
+.nav1{
+    background-color: #45403a; height: 100%;
+}
+
+.sidenav{
+    list-style-type: none;
+margin: 0; padding: 0; width: 20%;
+position: fixed; height: 100%;
+overflow: auto;  background-color: #45403a;
+}
+
+li a{
+    display: block;
+    text-decoration: none; color: white;
+}
+
+li a:active, li a:focus, li a:hover{
+    background-color: #45403a; color: #1dc81d;
+    text-decoration: none;
+}
+
+li h4{
+    color: white; font-size: 24px; text-align: center;
+    padding-top: 12px; padding-bottom: 12px;
+}
+.dp{
+    margin-left: 33.5%;
+     border-radius: 50%; margin-bottom: 1%;
+     margin-top: 3%;
+}
+.name{
+    text-align: center; color: white;
+    font-size: 18px;
+}
+.mail{
+    text-align: center; color: white;
+    font-size: 16px; opacity: 0.5; margin-top: -2%;
+}
+
+.edit2{
+    display: flex; flex-direction: row;
+    color: white; padding-top: 12%; 
+    font-family: 'Times New Roman', Times, serif;
+    border: 0; border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 3%;
+}
+.edit1{
+    border-top: 1px solid #e6e6e6;
+}
+.first{
+ margin-left: 10%;
+}
+.third{
+    margin-left: 11%;
+    padding: 0 10px;
+}
+.second{
+     margin-left: 10%;
+    padding: 0 10px;
+}
+.glyphicon-lock{
+    font-size: 22px; margin-left: 30%;
+}
+.prof{
+    font-size: 14px; border-radius: 50%;
+    border: 3px solid white; padding: 7%;
+    margin-left: 11%; margin-bottom: 6%;
+}
+.prof:hover, .prof:focus, .prof:active{
+    border: 3px solid #1dc81d; text-decoration: none;
+}
+
+.glyphicon-log-out{
+    font-size: 22px; margin-left: 20%;
+}
+
+.edit3{
+    padding-top: 25%; padding-bottom: 0%;
+}
+.edit3 p, .edit5 p, .edit6 p, .edit7 p{
+    margin-left: 13%; color: white;
+}
+.glyphicon-home, .glyphicon-picture, .invigilator, .glyphicon-envelope{
+    font-size: 20px;
+}
+.hometext{
+font-style: italic; margin-left: 7%;
+}
+
+ .edit5, .edit6, .edit7{
+    padding-top: 6%;
+}
+
+.student{
+    font-size: 17px; border: 2px solid white;
+    margin-left:8%; float: left;
+}
+.student:hover, .student:focus, .student:active{
+    border: 2px solid #1dc81d; color: #1dc81d;
+     background-color: #45403a; text-decoration: none;
+}
+
+.glyphicon-menu-down, .glyphicon-menu-up{
+    margin-left: 10%; float: left; padding-top: 2%; font-size: 14px;
+}
+.glyphicon-menu-down:hover, .glyphicon-menu-down:active, .glyphicon-menu-down:focus,
+.glyphicon-menu-up:hover, .glyphicon-menu-up:active, .glyphicon-menu-up:focus{
+    color: #1dc81d; background-color: #45403a; text-decoration: none;
+}
+.edit4 p{
+    margin-left: 5%; color: white;
+}
+.edit4{
+     margin: 0; padding-bottom: 3%;
+     padding-left: 0; padding-top: -3%; padding-right: 0;
+}
+.edit4 p:hover, .edit4 p:focus, .edit4 p:active{
+    color: #1dc81d; text-decoration: none;
+}
+
+
+.panel-group{
+    width: 100%; margin: 0; padding: 0;
+}
+.acc{
+    font-style:italic; float: left; margin-left: 6%;
+     padding-top: 3%; font-size: 14px;
+}
+.acc:hover, .acc:focus, .acc:active{
+    color: #1dc81d; background-color: #45403a; text-decoration: none;
+}
+.panel-body{
+    background-color: #45403a;
+}
+.inner_ul{
+    list-style-type: none; border: 0; background-color: #45403a;
+    padding: 0; margin: 0; padding-left: 30%; overflow: hidden;
+}
+.inner_li a:active, .inner_li a:focus, .inner_li a:hover{
+    color: #1dc81d; background-color: #45403a; text-decoration: none;
+}
+.inner_li{
+    padding-bottom: 3%; 
+}
+.sub5:active, .sub5:hover, .sub5:focus, .sub4:active, .sub4:hover, .sub4:focus,
+ .sub3:active, .sub3:hover, .sub3:focus, .sub2:active, .sub2:hover, .sub2:focus,
+  .sub1:active, .sub1:hover, .sub1:focus{
+    color: #1dc81d; background-color: #45403a; text-decoration: none;
+}
+.sub5{
+    color:#eb04ff; margin-right: 10%;
+}
+.sub4{
+    color: #ffe604; margin-right:10%;
+}
+.sub3{
+    color: #ff6e04; margin-right: 10%;
+}
+.sub2{
+    color: #0c69d6; margin-right: 10%;
+}
+.sub1{
+    color: #ff0505; margin-right: 10%;
+}
+
+
+.page1{
+    margin-left: 20%;
+     padding:0;
+     height: 100%;
+}
+
+.top_nav1{
+    list-style-type: none; margin: 0;
+     padding-right: 4%; padding-left: 3%; border-bottom: 2.5px solid #e6e6e6;
+     padding-bottom: 20px; padding-top: 20px;
+     width: 100%;  overflow: hidden; background-color: white;
+}
+.top_nav3{
+    list-style-type: none; margin: 0;
+     padding-right: 4%; padding-left: 3%; border-bottom: 2.5px solid #e6e6e6;
+     padding-bottom: 20px; padding-top: 20px;
+     width: 100%;  overflow: hidden; background-color: white;
+}
+.note1{
+    float: left; display: inline; font-size: 20px;
+     color: #cccccc;
+}
+.note2{
+    float: right; display: inline; font-size: 20px;
+}
+.glyphicon-bell{
+    color: #cccccc; margin-right: -10%; font-size: 23px;
+}
+.note2 a:hover, .note2 a:active, .note2 a:focus{
+    background-color: #f2f2f2; border: 0px;
+     color: #cccccc; text-decoration: none;
+}
+.page11{
+    display: flex; flex-direction: row;
+    margin-left: 7%; margin-top: 1%;
+}
+.img_class{
+    width: 40%; padding-top: 5%;
+}
+.text_class{
+    width: 65%; font-size: 18px;
+    margin-left: 3%; padding-top: 3%;  text-align: justify;
+}
+.study{
+    width: 100%;
+    float: right;
+}
+h5{
+    font-size: 22px; font-weight: bold; 
+}
+.page12{
+    display: flex; flex-direction: row;
+    margin-left: 0%; margin-top: 5%;
+}
+.step1{
+    width: 27%;
+    margin-left: 6%; margin-right: 3.5%;
+}
+.step2{
+    width: 27%;
+    margin-right: 3.5%;
+}
+.step3{
+    width: 27%;
+}
+.step1_text, .step3_text{
+    box-shadow: 5px 8px 3px 8px #d9d9d9; font-size: 20px;
+    text-align: center; padding-bottom: 10%;
+    padding-top: 20%; margin-top: -5%;
+}
+.step2_text{
+    box-shadow: 5px 8px 3px 8px #d9d9d9; font-size: 20px;
+    text-align: center; padding-bottom: 19%;
+    padding-top: 20%; margin-top: -5%;
+}
+.step1 button, .step3 button{
+    font-weight: bold; cursor: pointer; cursor: none;
+     width: 50%; background-color: #1dc81d; color: white;
+    padding-top: 4%; padding-bottom: 4%; margin-top: -2%;
+    margin-bottom: -10%; margin-left: 25%; text-align: center;
+font-size: 22px;
+}
+.step2 button{
+    width: 50%; font-weight: bold; cursor: none;
+    padding-top: 4%; padding-bottom: 4%; margin-top: -2%;
+    margin-bottom: -10%; margin-left: 25%; text-align: center; 
+    background-color: #1dc81d; color: white; font-size: 22px;
+     
+}
+
+
+
+
+.workspace{
+    box-shadow: 5px 8px 3px 8px #d9d9d9; width: 70%;
+    margin-left: 15%; margin-top: 7%; padding-top: 1%;
+}
+.workspace h4{
+    text-align: center; margin-top: 6%; font-weight: bold;
+    font-size: 20px; margin-bottom: 8%;
+}
+.op{
+    font-size: 18px; margin-right: 13%;
+     margin-left: 8%; font-weight: bold;
+}
+.np{
+    font-size: 18px; margin-right: 12%;
+      margin-left: 8%; font-weight: bold;
+}
+.cp{
+    font-size: 18px; margin-right: 8.5%;
+      margin-left: 7.5%; font-weight: bold;
+}
+input[type=password]{
+    width: 50%; padding-left: 2%; margin-bottom: 2%;
+     padding-right: 2%; border: 1px solid #d9d9d9;
+    padding-top: 7px; padding-bottom: 7px; 
+}
+input[type=password]:focus, input[type=password]:active{
+border: 1px solid #d9d9d9; outline: none;
+}
+.submit{
+    width: 22%; padding: 2px 7px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px;
+     color: white; font-size: 24px; margin-left: 39%;  
+     margin-top: 6%; margin-bottom: 7%;
+}
+.submit:hover{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; border-color: #1dc81d;
+}
+.submit:focus, .submit:active{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none;  border-color: #1dc81d;
+    outline: none;
+}
+
+#alert1, #alert2, #alert3{
+    color: tomato; text-align: center; margin-top: -15px;
+    font-size: 12px;
+} 
+
+
+
+
+.header{
+    font-weight: bold; margin-left: 15%;
+    margin-top: 7%;
+}
+.over{
+    width: 73%; margin: 0; padding: 0;
+     background-color: white; margin-left: 12%
+}
+.arrow{
+    font-size: 12px; float: right; margin-top: -1%;
+}
+.arrow:hover, .arrow:focus, .arrow:active,
+ .txxt:hover, .txxt:focus, .txxt:active{
+    text-decoration: none; background-color: white;
+    color: #b3b3b3;
+} 
+  .txtnicon, .txtnicon:hover, .txtnicon:focus, .txtnicon:active{
+      text-decoration: none;
+  }
+  .content{
+      background-color: white; color:  #b3b3b3;
+  }
+  .flex{
+    display: flex; flex-direction: row;
+    border-top: 1px solid #cccccc; border-right: 0px;
+      border-bottom: 1px solid #cccccc; border-left: 0px;
+    margin-left: 15%; margin-top: 3%; width: 50%;
+    padding-bottom: 2%;  padding-top: 2%;
+  }
+  .semester{
+      font-size: 21px; margin-top: 1%;
+      font-weight: bold;
+  }
+  .save{
+    width: 18%; padding: 2px 7px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px;
+     color: white; font-size: 24px; margin-left: 47%;  
+     margin-top: 4%; margin-bottom: 7%;
+}
+.save:hover{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; border-color: #1dc81d;
+}
+.save:focus, .save:active{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none;  border-color: #1dc81d;
+    outline: none;
+}
+
+
+
+
+
+.declinedel{
+    color: white; background-color: #1dc81d; 
+    margin-left: 14%; font-weight: bold; 
+    padding: 7px 50px; font-size: 20px;
+    border-radius: 0%;
+}
+.confirmdel:hover, .confirmdel:focus, .declinedel:focus, .declinedel:hover{
+    color: white; border-radius: 0%; background-color: #1dc81d; 
+}
+.confirmdel{
+    color: white; background-color: #1dc81d; 
+   font-weight: bold; padding: 7px 50px; font-size: 20px;
+   border-radius: 0%;
+}
+.modal_para{
+  font-weight: bold; font-size:22px;  
+}
+.header2{
+    font-weight: bold; margin-left: 7%;
+    margin-top: 7%; margin-bottom: 5%;
+}
+.addCourse{
+    width: 18%; padding: 5px 15px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px;
+     color: white; font-size: 24px; margin-left:7%;
+
+}
+.addCourse:hover{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; border-color: #1dc81d;
+}
+.addCourse:focus, .addCourse:active{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none;  border-color: #1dc81d;
+    outline: none;
+}
+.firsttable{ 
+    width: 90%; border-left: 1px solid #d9d9d9;
+    margin-left: 7%; margin-top: 3%;
+    box-shadow: 2px 2px 2px 2px #d9d9d9;
+}
+ td, th{
+    text-align: center;
+}
+.modal-content{
+    width: 60%; margin-left: 30%; margin-top: 2%;
+}
+.modal-header{
+    border-bottom: 3px solid #d9d9d9;
+     padding-top: 2%; padding-bottom: 2%;
+}
+.close:hover, .close:active, .active:focus{
+   text-decoration: none; background-color: black;
+   color: white;
+}
+.lead{
+    color: black; align: left;
+    margin-left: 2%; font-weight: bold;
+     font-size: 25px;
+}
+.modal-body{
+    background-color: white;
+}
+{
+    width: 70%; padding: 12px 12px;
+    border: none; border-radius: 0px;
+background-color: white;
+}
+.labels{
+    font-size: 18px; font-weight: 500;
+}
+
+.save{
+    width: 20%; padding: 3px 16px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px; margin-top: 9%;
+     color: white; font-size: 21px; margin-left:40%; margin-bottom: 4%;
+
+}
+.save:hover{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; border-color: #1dc81d;
+}
+.save:focus, .save:active{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none;  border-color: #1dc81d;
+    outline: none;
+}
+.textInput{
+    border: 1px solid #d9d9d9;
+    padding: 7px 5px;
+}
+.textInput:active, .textInput:focus{
+border: 1px solid #d9d9d9; outline: none;
+}
+#dept, #school{
+    margin-left: 8%; border: 1px solid #d9d9d9;
+     padding-bottom: 2%; padding-top: 2%; width: 70%;
+     color: #b3b3b3;
+}
+#unit{
+    margin-left:11%; width: 35%; padding-bottom: 1%;
+     padding-top: 1%; margin-top: 5%;
+       border: 1px solid #d9d9d9;  color: #b3b3b3;
+}
+#level{
+    margin-left: 12%;  color: #b3b3b3;
+    border: 1px solid #d9d9d9; width: 70%;
+    padding-bottom: 2%; padding-top: 2%;
+}
+#coursecode{
+    margin-left: 8%; border: 1px solid #d9d9d9;
+     padding-bottom: 2%;   color: #b3b3b3;
+     padding-top: 2%; width: 53.3%;
+}
+option{
+    text-align: center;
+}
+
+
+.notice{
+    text-align: center; font-size: 21px; 
+    padding-left: 10%; padding-right: 10%;
+    margin-top: 8%;
+}
+.table-striped th, .table-striped td{
+    border: 1px solid #d9d9d9; width: 50%;
+    text-align: left; font-size: 16px; padding-left: 4%;
+    padding-top: 0%; padding-bottom: 0%;
+}
+.table-striped {
+    width: 80%;
+    margin-left: 10%; margin-top: 3%;
+    border: 1px solid #d9d9d9;
+}
+.table-striped tr{
+    height: 40px; border-top: 2px solid #d9d9d9;
+}
+.glyphicon-plus{
+    float: right; color: #d9d9d9;
+    margin-right: 11%; border: 2px solid #d9d9d9;
+    border-radius: 50%;  margin-top: 1%;
+    font-size: 19px; padding: 4px;
+}
+.glyphicon-plus:hover{
+    color: grey;
+   border: 2px solid grey;
+    border-radius: 50%;
+}
+.savehalls{
+    width: 17%; padding: 3px 16px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px; margin-top: 11%;
+     color: white; font-size: 23px; margin-left:40%; margin-bottom: 4%;
+
+}
+.savehalls:hover{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; 
+}
+.savehalls:focus, .savehalls:active{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; outline: none;
+}
+
+
+
+.notice2{
+    text-align: center; font-size: 21px; 
+    padding-left: 10%; padding-right: 10%;
+    margin-top: 8%;
+}
+#sixth_page .table-striped th, #sixth_page .table-striped td{
+    border: 1px solid #d9d9d9; width: 50%;
+    text-align: left; font-size: 15px; padding-left: 4%;
+    padding-top: 1%; padding-bottom: 1%;
+}
+#sixth_page .table-striped {
+    width: 80%;
+    margin-left: 10%; margin-top: 5%;
+    border: 1px solid #d9d9d9;
+}
+#sixth_page .table-striped tr{
+    border-top: 2px solid #d9d9d9;
+}
+
+.saveInvigilators{
+    width: 17%; padding: 3px 16px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px; margin-top: 10%;
+     color: white; font-size: 23px; margin-left:40%; margin-bottom: 4%;
+
+}
+.saveInvigilators:hover{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; 
+}
+.saveInvigilators:focus, .saveInvigilators:active{
+    background-color:  #1dc81d; color: white;
+    text-decoration: none; outline: none;
+}
+
+
+
+
+.profileBoard{
+   width: 80%; padding-bottom: 1%;
+    margin-left: 10%; margin-top: 12%;
+    box-shadow: 5px 8px 3px 8px #d9d9d9;
+    padding-left: 4%; padding-right: 5%;
+}
+
+#myImg{
+border-radius: 50%; margin-left: 40%;
+margin-top: -17%;
+}
+#myInput{
+  float: right;   
+}
+
+.profileBoard h4{
+text-align: center;
+font-size: 30px; margin-top: 3.5%;
+margin-bottom: 0%;
+}
+.profileBoard p:first-of-type{
+    text-align: center; font-size: 20px;  
+    margin-bottom: 7%; 
+}
+
+.colon{
+     margin-right: 7%;
+    font-size: 18px; font-weight: 300;
+}
+
+.value{
+    font-weight: 600; font-size: 20px;
+}
+.changePassword{
+    margin-top: 10%; text-align: right;
+    color: blue; font-size: 15px;
+    font-weight: bold; cursor: pointer;
+}
+.changePassword a:hover, .changePassword a:hover{
+     font-size: 15px; text-decoration: none;
+    font-weight: bold; cursor: pointer;
+}
+.glyphicon-camera{
+    border-radius: 50%; padding: 1%;
+    font-size: 25px; margin-left: -6.5%; 
+    background-color: white; 
+}
+
+.messagebox{
+    box-shadow: 2px 3px 5px 12px #d9d9d9; width: 60%;
+    margin-left: 20%; margin-top: 7%; padding-top: 1%;
+}
+
+.messagebox h3{
+    font-weight: bold; text-align: center;
+    font-size: 27px;
+}
+.messagebox p{
+    font-weight: bold; text-align: center;
+    font-size: 20px; line-height: 160%;  
+}
+.messagebox i{
+    margin-left: 10%; font-size: 16px;
+}
+.messagebox button{
+    width: 20%; padding: 3px 17px; display: cursor: pointer;
+    background-color: #1dc81d; border-radius: 0px; 
+     color: white; font-size: 21px; margin-left: 73%;
+}
+.messagebox button:hover, .messagebox button:focus{
+    color: white; outline: none;
+}
+.arrow-dismiss{
+    color: #1dc81d; font-size: 18px;
+    margin-left: 3%; margin-right: 2%;
+}
+.inbox{
+    background-color: #d9d9d9;
+    width: 60%; font-size: 17px; font-weight: 540;
+    border-radius: 20px; padding: 3% 2%;
+}
+
+.modal-footer #chatinput{
+    float: left; width: 54%; 
+    background-color: #f0f0f0;
+    border-radius: 30px; border: 0px;
+    padding: 5px 15px; font-size: 16px;
+}
+.modal-footer #chatinput:active, .modal-footer #chatinput:focus{
+    background-color: #f0f0f0;
+    border-radius: 30px; border: 0px;
+    padding: 5px 15px; font-size: 16px;  
+    outline: none;
+}
+.glyphicon-chevron-right{
+    float: left; font-size: 17px;
+    padding-top: 8px; margin-left: 4%;
+}
+.sent2{
+    background-color: #1dc81d; margin-left: 53%;
+    width: 5%; font-size: 17px; padding:2% 3%;
+    border-radius: 15px; 
+}
+.sent{
+    background-color: #1dc81d; margin-left: 48%;
+    width: 15%; font-size: 17px; padding:2% 3%;
+    border-radius: 15px; 
+}
+.sentClass{
+    background-color: #1dc81d; margin-left: 41%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 22%;
+}
+.sentClass2{
+    background-color: #1dc81d; margin-left: 30%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 35%; padding-left: -2%;
+}
+.sentClass3{
+    background-color: #1dc81d; margin-left: 23%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 40%; padding-left: 2%;
+}
+.sentClass4{
+    background-color: #1dc81d; margin-left: 18%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 45%; padding-left: 2%;
+}
+.sentClass5{
+    background-color: #1dc81d; margin-left: 13%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 50%; padding-left: 2%;
+}
+.sentClass6{
+    background-color: #1dc81d; margin-left: 8%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 55%; padding-left: 2%;
+}
+.sentClass7{
+    background-color: #1dc81d; margin-left: 3%;
+    font-size: 17px; padding:2% 3%; text-align: right;
+    border-radius: 15px; width: 60%; padding-left: 2%;
+}
+.modal-header .close:focus, .modal-header .close:active{
+outline: none;
+}
